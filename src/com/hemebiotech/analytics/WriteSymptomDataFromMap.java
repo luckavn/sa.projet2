@@ -17,11 +17,16 @@ public class WriteSymptomDataFromMap implements ISymptomWriter {
 		FileWriter writer = new FileWriter (path);
 
 		if (mapOfSymptoms != null && !mapOfSymptoms.isEmpty()) {
+
 			for (Map.Entry<String, Integer> entry : mapOfSymptoms.entrySet()) {
 				writer.write(entry.getKey() + ": " + entry.getValue());
 				writer.write(nextLine);
 			}
-			System.out.println("The list is available at Project_root/src/result.out");
+			System.out.println("The file is available at " + path);
+			writer.close();
+		}
+			else {
+			System.out.println("The list of symptoms is empty");
 			writer.close();
 		}
 	}
