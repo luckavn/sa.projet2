@@ -21,7 +21,7 @@ public class WriteSymptomDataFromMap implements ISymptomWriter {
 				writer.write(entry.getKey() + ": " + entry.getValue());
 				writer.write(nextLine);
 			}
-			System.out.println("The list is available at Project/src/result.out");
+			System.out.println("The list is available at Project_root/src/result.out");
 			writer.close();
 		}
 	}
