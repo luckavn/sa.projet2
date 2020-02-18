@@ -30,7 +30,6 @@ public class WriteSymptomDataFromMap implements ISymptomWriter {
 			writer.close();
 		}
 			else {
-			System.out.println("The list of symptoms is empty");
 			writer.close();
 		}
 	}

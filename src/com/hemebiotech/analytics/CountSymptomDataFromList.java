@@ -27,6 +27,10 @@ public class CountSymptomDataFromList implements ISymptomCounter {
 				}
 			}
 		}
+		else {
+			System.out.println("The list of symptoms is empty");
+			System.exit(1);
+		}
 		return map;
 	}
 }
