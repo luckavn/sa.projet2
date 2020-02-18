@@ -3,9 +3,9 @@ package com.hemebiotech.analytics;
 import java.util.*;
 
 /**
- * Simple brute force implementation
- *
+ * Implementation method for counting occurences symptoms from a a list (symptoms)
  */
+
 public class CountSymptomDataFromList implements ISymptomCounter {
 
 	@Override

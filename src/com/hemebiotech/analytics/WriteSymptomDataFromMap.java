@@ -4,6 +4,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * Implementation method for writing ordered TreeMap into a new file (result.out)
+ */
+
 public class WriteSymptomDataFromMap implements ISymptomWriter {
 
 	@Override

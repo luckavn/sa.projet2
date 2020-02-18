@@ -9,7 +9,6 @@ import java.util.Map;
 public interface ISymptomWriter {
 	/**
 	 * @param mapOfSymptoms a map listing of all Symptoms and their occurences with no duplications
-	 * @return a void (nothing to use, but not null)
 	 */
 	void writeSymptoms(Map<String, Integer> mapOfSymptoms) throws IOException;
 }

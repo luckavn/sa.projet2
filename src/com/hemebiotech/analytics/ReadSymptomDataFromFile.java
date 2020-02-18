@@ -8,6 +8,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Implementation method for reading symptoms from a file (symptoms.txt)
+ */
+
 public class ReadSymptomDataFromFile implements ISymptomReader {
 	private String filepath;
 
