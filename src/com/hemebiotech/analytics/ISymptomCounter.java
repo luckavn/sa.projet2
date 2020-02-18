@@ -13,7 +13,7 @@ public interface ISymptomCounter {
 	 * @param symptoms which is a list of strings with duplications
 	 * @return a map listing of all Symptoms and their occurences with no duplications
 	 */
-	public Map<String, Integer> countSymptom(List<String> symptoms);
+	Map<String, Integer> countSymptom(List<String> symptoms);
 }
 
 
