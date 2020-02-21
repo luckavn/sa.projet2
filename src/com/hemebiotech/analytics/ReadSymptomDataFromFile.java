@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -43,10 +42,6 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
                 System.out.println("Cannot find file named symptoms.txt");
             } catch (IOException e) {
                 e.printStackTrace();
-            } finally {
-                Collections.sort(result);
-
-
             }
         }
         return result;
